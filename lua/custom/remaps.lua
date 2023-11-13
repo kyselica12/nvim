@@ -1,6 +1,7 @@
 
 vim.keymap.set('n', '<Leader>w', '<cmd>w<cr>')
 vim.keymap.set('n', '<Leader>x', '<cmd>x<cr>')
+vim.keymap.set('n', 'Q', '<cmd>q<cr>')
 
 vim.keymap.set('n', '<Tab>', '<cmd>tabnext<cr>')
 vim.keymap.set('n', '<C-H>', '<C-W>h')

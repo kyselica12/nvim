@@ -27,7 +27,7 @@ return {
 
         require('mason').setup({})
         require('mason-lspconfig').setup({
-          ensure_installed = {'pyright', 'rust_analyzer', 'haskell-language-server'},
+          ensure_installed = {'pyright', 'rust_analyzer'},
           handlers = {
             lsp_zero.default_setup,
             lua_ls = function()

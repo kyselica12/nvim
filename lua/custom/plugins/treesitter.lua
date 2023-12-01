@@ -41,4 +41,27 @@ return {
         additional_vim_regex_highlighting = false,
         },
     },
+    config = function()
+        opts = {
+            ensure_installed = {"python", "kotlin", "lua", "vim", "vimdoc", "query"},
+            sync_install=false,
+            auto_install=true,
+            ignore_install={},
+            highlight={
+                enable=true,
+                disable={},
+            },
+
+        }
+        require("nvim-treesitter.configs").setup({
+            highlight={
+                enable=true,
+                disable={},
+            },
+        })
+
+        require("nvim-treesitter").setup(opts)
+
+
+    end,
 }

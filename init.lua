@@ -2,7 +2,8 @@
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.mouse = 'a'
-vim.opt.syntax = 'on'
+-- vim.opt.syntax = 'on'
+vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.wrap = false
 vim.opt.breakindent = true
